@@ -1,4 +1,4 @@
-package dz_2;
+
 import java.io.*;
 
 public class lib {

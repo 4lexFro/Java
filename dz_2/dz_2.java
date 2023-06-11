@@ -1,4 +1,4 @@
-package dz_2;
+
 // Дана строка sql-запроса "select * from students where ". Сформируйте часть WHERE этого запроса, 
 // используя StringBuilder. Данные для фильтрации приведены ниже в виде json строки.
 // Если значение null, то параметр не должен попадать в запрос.
@@ -6,7 +6,7 @@ package dz_2;
 
 public class dz_2 {
     public static void main(String[] args) throws Exception {
-    String [] list = lib.ReadLineFromFile("ParamFilt.txt"); 
+    String [] list = lib.ReadLineFromFile("dz_2/ParamFilt.txt"); 
       System.out.println(list[0]); 
       StringBuilder resultSelect = LineInList(list[0]);
       System.out.println(resultSelect);

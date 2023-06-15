@@ -16,7 +16,7 @@ public class dz_3 {
             ArrayList<Integer> spisok = new ArrayList<Integer>();
             Random rand = new Random();
             for (int i = 0; i < N; i++) {
-                int x = rand.nextInt(N);
+                int x = rand.nextInt(1000);
                 spisok.add(x);
             }
             System.out.println("Произвольный список целых чисел: \n " + spisok);

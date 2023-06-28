@@ -11,15 +11,15 @@ public class dz_6 {
     private static HashMap <Integer, Object> hashMap = new HashMap<>();
     private static final Object PRESENT  = new Object();
     public static void main(String[] args) throws Exception {
-        add(11);
-        add(22);
-        add(33);
-        add(44);
-        add(55);
+        add(23);
+        add(67);
+        add(2);
+        add(82);
+        add(16);
         System.out.println(getString());
 
         System.out.println(gettkey(1));
-        System.out.println(gettkey(20));
+        System.out.println(gettkey(4));
     }
 
     private static int gettkey(int num) {
